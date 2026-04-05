@@ -36,7 +36,7 @@ quantidade_vendas_eucalipto = vendas_eucalipto['quantidade'].sum()
 print(f"Quantidade de vendas de Eucalipto: {quantidade_vendas_eucalipto}")
 
 # Filtrar as transações de venda para o produto MDF
-vendas_mdf = data[(data['tipo_transacao'] == 'Venda') & (data['produto'] == 'mdf')]
+vendas_mdf = data[(data['tipo_transacao'] == 'Venda') & (data['produto'] == 'MDF')]
 
 # Contar a quantidade total de vendas de MDF
 quantidade_vendas_mdf = vendas_mdf['quantidade'].sum()
